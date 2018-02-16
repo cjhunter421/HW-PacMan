@@ -13,8 +13,8 @@ exercise.flag = 0; // 0 = mouth open  1 = mouth shut
 exercise.increment = 20; // pixels to move either + or -
 exercise.run = function() {
     exercise.img1 = document.getElementById('PacMan');
-    exercise.updatePosition();
     exercise.checkWallCollision();
+    exercise.updatePosition();
     exercise.chooseImage();
 };
 exercise.updatePosition = function() {
